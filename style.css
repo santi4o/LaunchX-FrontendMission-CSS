@@ -38,8 +38,16 @@ nav a:last-child {
     color: #3958d7;
 }
 
+.darkBlue {
+    color: #1f3e72;
+}
+
 .white {
     color: white;
+}
+
+.small1 {
+    font-size: 1.05vw;
 }
 
 .medium {
@@ -59,7 +67,11 @@ nav a:last-child {
 }
 
 .bold2 {
-    font-weight:600;
+    font-weight: 600;
+}
+
+.semiBold {
+    font-weight: 500;
 }
 
 a {
@@ -69,3 +81,78 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+h1 {
+    font-size: 4vw;
+    line-height: 4.8vw;
+    margin-bottom: 1vw;
+}
+
+#main {
+    display: flex;
+}
+
+#half1 {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    padding-top: 4vw;
+    background-image: url("img/triangles.png");
+    background-size: contain;
+}
+
+#half2 {
+    background: linear-gradient(90deg, rgba(12,149,229,1) 0%, rgba(47,106,220,1) 100%);
+    width: 47%;
+    padding: 0px;
+}
+
+#half2 > img {
+    display: block;
+    width: 82%;
+    margin: 2vw auto 0px auto;
+    bottom: 0px;
+    padding: 0px;
+}
+
+#half1 > * {
+    margin-left: 10vw;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+}
+
+.squareIcon {
+    text-align: center;
+    background-color: #fdf7e2;
+    box-shadow: 0 7px 4px 2px #fdf7e2;
+    border-radius: 2px;
+    border: 2px solid white;
+}
+
+.smallIcon {
+    width: 1.9vw;
+    height: 1.9vw;
+    line-height: 1.9vw;
+    margin-right: 1vw;
+}
+
+.material-icons {
+    line-height: inherit;
+}
+
+.yellowIcon {
+    color: #ffd012;
+}
+
+#iconLine {
+    margin-top: 2.6vw;
+    padding-left: 0.3vw;
+}
+
+#iconLine > div:first-child {
+    margin-right: 2vw;
+}
+
