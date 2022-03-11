@@ -58,6 +58,10 @@ nav a:last-child {
     font-size: 1.25vw;
 }
 
+.medium3 {
+    font-size: 1.4vw;
+}
+
 .grey {
     color: gray;
 }
@@ -99,6 +103,7 @@ h1 {
     padding-top: 4vw;
     background-image: url("img/triangles.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #half2 {
@@ -125,34 +130,57 @@ h1 {
 }
 
 .squareIcon {
-    text-align: center;
-    background-color: #fdf7e2;
-    box-shadow: 0 7px 4px 2px #fdf7e2;
     border-radius: 2px;
     border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .smallIcon {
-    width: 1.9vw;
-    height: 1.9vw;
-    line-height: 1.9vw;
+    width: 1.8vw;
+    height: 1.8vw;
     margin-right: 1vw;
+    font-size: 1.25vw;
+}
+
+.mediumIcon {
+    width: 2.2vw;
+    height: 2.2vw;
+    margin-right: 1vw;
+    font-size: 1.4vw;
 }
 
 .material-icons {
-    line-height: inherit;
+    font-size: inherit;
+    display: block;
 }
 
 .yellowIcon {
+    background-color: #fdf7e2;
+    box-shadow: 0 5px 5px -1px #fdf7e2;
     color: #ffd012;
+}
+
+.blueIcon {
+    background-color: #e2e9ff;
+    box-shadow: 0 5px 5px -1px #e2e9ff;
+    color: #3958d7;
+}
+
+#iconLine, #iconLine2 {
+    padding-left: 0.3vw;
 }
 
 #iconLine {
     margin-top: 2.6vw;
-    padding-left: 0.3vw;
 }
 
 #iconLine > div:first-child {
     margin-right: 2vw;
+}
+
+#iconLine2 {
+    margin-top: 11.5vw;
 }
 
