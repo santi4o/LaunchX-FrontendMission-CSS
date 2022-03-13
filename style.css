@@ -505,3 +505,59 @@ h2 {
     padding: 1.25vw 1.9vw;
     /*box-shadow: 0px 4px 5px -3px #3958d7;*/
 }
+
+footer {
+    background-color: #e4e9f8;
+    padding-top: 2.4vw;
+    margin-top: 9vw;
+}
+
+footer .top {
+    display: flex;
+}
+
+footer .top .left {
+    padding-top: 1vw;
+    width: 53vw;
+    padding-left: 10vw;
+}
+
+footer h3 {
+    font-size: 1.8vw;
+    font-weight: 800;
+    line-height: 0.5vw;
+}
+
+footer h4 {
+    font-size: 1.45vw;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 1vw;
+    color: grey;
+    line-height: 2vw;
+}
+
+footer .right {
+    display: flex;
+}
+
+footer .right > div {
+    display: flex;
+    flex-direction: column;
+    width: 14vw;
+}
+
+footer .right > div > a {
+    margin-bottom: 1.7vw;
+}
+
+footer a {
+    color: grey;
+    font-size: 1vw;
+}
+
+footer .bottom > div {
+    display: inline-block;
+}
