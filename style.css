@@ -138,7 +138,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-#half1 > p, #why > p {
+#half1 > p, #why > p, #preparationsTop > p {
     font-family: 'Poppins', sans-serif;
     line-height: 2.2vw;
 }
@@ -335,3 +335,89 @@ h2 {
     font-size: 0.95vw;
     line-height: 1.6vw;
 }
+
+#preparationsTop h2 {
+    font-size: 2.7vw;
+    font-weight: 800;
+    line-height: 4.8vw;
+    margin-bottom: 0.8vw;
+}
+
+#preparationsTop {
+    background-image: url('img/triangle_2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 2.65vw;
+    padding-top: 8vw;
+    padding-left: 48.5vw;
+}
+
+#preparationsBottom {
+    margin-top: 4vw;
+    display: flex;
+}
+
+#half1P {
+    position: relative;
+    width: 43.8vw;
+    height: 34.25vw;
+    background: linear-gradient(90deg, rgba(12,149,229,1) 0%, rgba(47,106,220,1) 100%);
+}
+
+#half1P img {
+    width: 74.2%;
+    position: absolute;
+    bottom: 0%;
+    left: 6.55vw;
+}
+
+#half2P {
+    width: 47vw;
+    padding: 1.1vw 10vw 1vw 6.6vw;
+}
+
+.preparationItem {
+    margin-bottom: 3.3vw;
+}
+
+.preparationItem:not(#expanded) div {
+    box-shadow: none;
+}
+
+.preparationItem .text {
+    font-size: 1.15vw;
+    font-weight: 500;
+}
+
+.tipIcon {
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 2.45vw;
+    height: 2.5vw;
+    margin-right: 1.5vw;
+    font-size: 1.25vw;
+}
+
+.expandIcon {
+    border: 3px solid white;
+    border-radius: 3px;
+    width: 1.8vw;
+    height: 1.8vw;
+    font-size: 1.6vw;
+    margin-left: auto;
+}
+
+#expanded {
+    border: 2px solid white;
+    box-shadow: 0px 0.9vw 2vw -1.8vw rgb(73, 73, 73);
+    margin-bottom: 2.5vw;
+}
+
+.details {
+    padding-left: 3.8vw;
+    padding-bottom: 0.9vw;
+    font-size: 0.85vw;
+    line-height: 1.5vw;
+}
+
+
