@@ -510,16 +510,19 @@ footer {
     background-color: #e4e9f8;
     padding-top: 2.4vw;
     margin-top: 9vw;
+    padding-bottom: 2vw;
 }
 
 footer .top {
     display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 4.5vw;
+    justify-content: space-between;
 }
 
 footer .top .left {
     padding-top: 1vw;
-    width: 53vw;
-    padding-left: 10vw;
 }
 
 footer h3 {
@@ -541,12 +544,14 @@ footer p {
 
 footer .right {
     display: flex;
+    justify-content: flex-end;
 }
 
 footer .right > div {
     display: flex;
     flex-direction: column;
-    width: 14vw;
+    margin-left: 6.5vw;
+    width: 7.7vw;
 }
 
 footer .right > div > a {
@@ -558,6 +563,23 @@ footer a {
     font-size: 1vw;
 }
 
-footer .bottom > div {
-    display: inline-block;
+footer .bottom {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer .bottom > div > a {
+    display: block;
+}
+
+footer .bottom > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .bottom > div:last-child > a {
+    margin-left: 2.5vw;
 }
