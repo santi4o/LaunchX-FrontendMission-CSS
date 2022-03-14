@@ -5,7 +5,7 @@ Aldo Santiago Castillo
 
 ![rocket](img/rocket.gif)
 
-- Ejercicio de CSS: clonar diseño de un landing de campaña publicitaria de vacunación: [Link del diseño](./landingVacunaci%C3%B3n.png) by [Adhiari Subekti](https://dribbble.com/Adhiari_is)
+- Ejercicio de CSS: clonar diseño de un landing de campaña publicitaria de vacunación: [Link del diseño](https://github.com/LaunchX-InnovaccionVirtual/FrontEnd-Mision/blob/main/03%20-%20CSS/practica/landingVacunaci%C3%B3n.png) by [Adhiari Subekti](https://dribbble.com/Adhiari_is)
 
 Resultado:
 
